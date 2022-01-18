@@ -10,12 +10,14 @@ first Dev session:      08:20 PM    ~   12:22 AM        ~ 04h 02m
 second Dev session:     12:30 AM    ~   01:25 AM        ~ 00h 55m
 </pre>
 
-<h2>Challenge Completed in   04h 57m</h2>
+<pre><q>Challenge Completed in   04h 57m</q></pre>
 
 ![Preview page](preview.jpg)
 <br>
 <br>
-![Page Report](Live Stats report.jpg)
+
+<h3> Website Stats Report</h3>
+<img src="Live Stats report.jpg" height="300"/>
 <br>
 <br>
 <br>
