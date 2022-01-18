@@ -15,6 +15,7 @@ second Dev session:     12:30 AM    ~   01:25 AM        ~ 00h 55m
 ![Preview page](preview.jpg)
 <br>
 <br>
+![Page Report](Live Stats report.jpg)
 <br>
 <br>
 <br>
