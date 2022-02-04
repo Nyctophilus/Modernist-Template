@@ -85,10 +85,11 @@ ul {
 
 .line {
   height: 5px;
-  width: 100%;
-  left: 0;
   background: var(--main-clr);
-  position: absolute;
+  position: sticky;
+  align-self: start;
+  top: 0;
+  z-index: 1;
 }
 /* Header */
 header .container {
@@ -106,24 +107,6 @@ header .container {
   }
   body > header > div > ul > li:not(:last-child) {
     margin-bottom: 20px;
-  }
-}
-@media (max-width: 991px) {
-  header .container {
-    flex-direction: column;
-  }
-  .logo h2 {
-    font-size: 1.5em !important;
-  }
-  header ul li {
-    margin-left: none !important;
-  }
-  header ul li a {
-    font-size: 16px !important;
-  }
-  .landing .landing-text i,
-  .landing .landing-img i {
-    display: none !important;
   }
 }
 header .logo h2 {
@@ -285,6 +268,7 @@ footer .box a::after {
 }
 .portfolio .container {
   gap: 20px;
+  padding: 20px;
 }
 .portfolio .box {
   background-color: white;
@@ -375,6 +359,7 @@ footer .box a::after {
     minmax(350px, 1fr)
   );
   grid-gap: 35px;
+  padding: 20px;
 }
 .gallery-sec .gallery img {
   width: 100%;
@@ -537,4 +522,33 @@ footer .box form input[type="submit"] {
 
 .copy p {
   color: var(--pragph-clr);
+}
+
+/* responsive */
+
+@media (max-width: 1199px) {
+  header .container {
+    flex-direction: column;
+  }
+  .logo h2 {
+    font-size: 1.5em;
+  }
+  header ul li {
+    margin-left: none;
+  }
+  header ul li a {
+    font-size: 16px;
+  }
+
+  .landing .landing-text h1 {
+    font-size: 3em;
+  }
+  .landing img {
+    width: 300px;
+    height: 300px;
+  }
+  .landing .landing-img::before {
+    height: 370px;
+    width: 370px;
+  }
 }
