@@ -17,7 +17,7 @@ second Dev session:     12:30 AM    ~   01:25 AM        ~ 00h 55m
 <br>
 
 <h3> Website Stats Report</h3>
-<img src="Live Stats report.jpg" height="300"/>
+<img src="Live Stats report.jpg"/>
 <br>
 <br>
 <br>
