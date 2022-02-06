@@ -4,18 +4,21 @@
 }
 body {
   color: white;
-  background-color: var(--bg);
-  margin: 0 50px !important;
+  background-image: url(../imgs/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   position: relative;
 }
 body::before {
   content: "";
   position: absolute;
-  background-image: url(../imgs/bg.jpg);
+  /* background-image: url(../imgs/bg.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  min-height: 100vh;
+  background-size: cover; */
+  background-color: var(--light-bg);
+  width: 90%;
+  height: 314.5vh;
   top: 0;
   opacity: 0.3;
   z-index: -1;
