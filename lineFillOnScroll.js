@@ -4,6 +4,6 @@ window.onscroll = lineFillOnScroll;
 
 function lineFillOnScroll() {
   lineScroller.style.width = `${
-    (window.scrollY * 100) / document.body.scrollHeight
+    (window.scrollY * 100) / 2014
   }%`;
 }

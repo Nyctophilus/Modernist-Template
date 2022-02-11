@@ -22,6 +22,9 @@ second Dev session:     12:30 AM    ~   01:25 AM        ~ 00h 55m
 <br>
 <br>
 
+TODO:
+FIXDONE: adjust the body scroller size
+
 🍬 Please Leave a :star: &nbsp;if you like it, Please!🤩
 
 <br>
